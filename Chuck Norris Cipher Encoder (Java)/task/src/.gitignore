@@ -1,0 +1,12 @@
+# JetBrains/IntelliJ files
+.idea/
+*.iml
+out/
+
+# Build folders
+build/
+bin/
+
+# Other system files
+.DS_Store
+Thumbs.db
