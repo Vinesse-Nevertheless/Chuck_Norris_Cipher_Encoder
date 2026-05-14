@@ -27,3 +27,11 @@ While I implemented the logic independently, I credit the **Hyperskill** curricu
 ## 🛠️ Key Technical Challenges
 * **Bit Boundaries:** Maintaining the strict 7-bit ASCII requirement during decoding to ensure characters were reconstructed correctly.
 * **The Solution:** I used a `StringBuilder` with a modulo check `(bStr.length() + 1) % 8 == 0` to manage character spacing and boundaries.
+
+
+## License
+This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) License - see the LICENSE file for details.
+
+![Java](https://img.shields.io/badge/language-Java-orange)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue)
+![AI-No-Training](https://img.shields.io/badge/AI-No--Training-red)
